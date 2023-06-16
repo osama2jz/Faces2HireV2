@@ -128,9 +128,12 @@ export const useStyles = createStyles((theme, props) => ({
       zIndex: 0,
     },
   },
+  weHire: {
+    overflow: "hidden",
+  },
   weHireImages: {
     maxWidth: "100%",
-    // overflow:'hidden',
+    overflow: "hidden",
     "&: first-of-type": {
       animation: props?.animate3 ? `${topToBottom} 2s ease-in-out` : "",
     },

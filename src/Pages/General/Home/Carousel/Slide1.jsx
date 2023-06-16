@@ -21,8 +21,10 @@ const Slide1 = () => {
   });
   return (
     <Container fluid className={classes.slide1}>
-      <Title order={isMobile ? 3 : 1}>Get Noticed - Get Hired</Title>
-      <Title order={isMobile ? 4 : 2}>
+      <Title order={isMobile ? 3 : 1} className={classes.text}>
+        Get Noticed - Get Hired
+      </Title>
+      <Title order={isMobile ? 4 : 2} fw={"normal"}>
         Search Over 10,000,000 Jobs All For Free
       </Title>
       <form
